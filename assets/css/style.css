@@ -1,0 +1,164 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(179, 180, 189, 0.774);
+}
+
+header {
+    padding: 15px;
+    background-color: rgba(18, 25, 126, 0.774);
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 30px;
+}
+
+header div {
+    padding-top: 30px;
+    margin-right: 60px;
+    float: right;
+    font-size: 20px;
+}
+
+header div ul {
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+
+main h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.about-main {
+    float: right;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 450px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.avatar {
+    float: left;
+    margin-left: 30px;
+    height: 400px; 
+    width: 400px;
+}
+
+.about-text {
+    margin-left: 500px;
+    position:relative;
+}
+
+article {
+    margin-bottom: 10px;
+    padding: 40px;
+    height: 240px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -50rem;
+    margin-right: -50rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.list h4{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.list ul {
+    list-style-type: none;
+}
+
+.languages {
+    float: left;
+    
+}
+
+.tools {
+  float: right;
+}
+
+aside {
+    margin-bottom: 10px;
+    padding: 40px;
+    height: 600px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+aside h5 {
+    font-size: 30px;
+}
+
+.portfolio {
+    float: left;
+    margin-left: 30px;
+    height: 400px; 
+    width: 400px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 40px;
+    height: 240px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+footer h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a { 
+    color: black;
+    margin-right: 40px;
+}
+
+
+@media screen and (min-width: 750px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+}
